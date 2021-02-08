@@ -1,58 +1,123 @@
-## Greeting :wave:
-My name is below the avatar. That's all, don't expect to know more. 
+---
+layout: default
+---
 
-## Sumthing about myself
-- Nationality: :australia: x :vietnam:
-- Location: Melbourne, Victoria (GMT+10)
-- Occupation: High school student.
-- Future Occupation: ~~full-stack developer~~ Machine Learning/Deep Learning researcher
-- Spare-time activites: Speedrunning :medal_sports:, Competitive Programming :computer:, Gaming :video_game:, ~~Anime/Manga~~  Visual Novel Crawling :blue_book:.
+Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-## Bragging section
-- Programming Language: Java(web-dev), Python(math, data)
-- Favorite math branches: 
-  - [Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
-  - [Linear Algebra](https://www.khanacademy.org/math/linear-algebra)
-  - [Discrete Mathematics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/)
-  - Combinatorics
-- Summary Typing Speed via [Typeracer](https://play.typeracer.com/):
+[Link to another page](./another-page.html).
 
-<a href="https://data.typeracer.com/pit/profile?user=aragami1408&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=aragami1408" border="0" alt="TypeRacer.com scorecard for user aragami1408"/></a>
+There should be whitespace between paragraphs.
 
-## Social Media
-Feel free to contact me via:
-- Reddit: [u/Aragami1408](https://www.reddit.com/u/Aragami1408)
-- Twitter: [@14082195tw](https://www.twitter.com/@14082195tw)
-- Github: You are here
-- Facebook: Don't even think about it
-- StackOverflow: [Aragami1408](https://stackoverflow.com/users/7519376/aragami1408?tab=profile)
-- Discord: Aragami1408#2195
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-## FAQ
+# Header 1
 
-**What does your nickname come from?**
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-I have two distinguished nickname: `Aragami1408` and `D6E093`
-- Aragami just my favorite song from some rhythm games and 1408 is my birth date (August 14th).
-- D6E093 is just a phrase converted to hexadecimal from `14082195`
+## Header 2
+
+> This is a blockquote following a header.
+>
+> When something is important enough, you do it even if the odds are not in your favor.
+
+### Header 3
+
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
+#### Header 4
+
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+*   This is an unordered list following a header.
+
+##### Header 5
+
+1.  This is an ordered list following a header.
+2.  This is an ordered list following a header.
+3.  This is an ordered list following a header.
+
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
+
+### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+
+### And an ordered list:
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+
+### And a nested list:
+
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+  - level 2 item
+  - level 2 item
+- level 1 item
+
+### Small image
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+### Large image
+
+![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-**When did you start programming?**
+### Definition lists can be used with HTML syntax.
 
-Since I was around 12 years old. The first language was Pascal
+<dl>
+<dt>Name</dt>
+<dd>Godzilla</dd>
+<dt>Born</dt>
+<dd>1952</dd>
+<dt>Birthplace</dt>
+<dd>Japan</dd>
+<dt>Color</dt>
+<dd>Green</dd>
+</dl>
 
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
 
-**What IDE/text editor do you use?**
-
-Mostly NeoVim or VSCode. IDEs kill my ram
-
-
-**What type of music do you like most?**
-
-Breakcore and Speedcore.
-
-**Which game(s) you spend playing most?**
-
-- osu!
-- FFXIV
-- PSO2
+```
+The final element.
+```
